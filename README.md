@@ -1,10 +1,4 @@
 # Project-Absensi-Lab-Tigahh-
-<head>
-  <style>
-    body {color = 'red';}
-  </style>
-</head>
-<body>
 Nama Proyek   : Project Absensi Lab Tigahh  🗣️ <br>
 Nama Kelompok : Kelompok Anak Spesial Pak Dengklek <br>
 Anggota :
@@ -14,6 +8,5 @@ Anggota :
   <li>251401068 - <a>Addin Syahid Nugraha</a></li>
 </ol>
 Drive : <a href="https://drive.google.com/drive/folders/18hjL_qfoJJlhwJIAyhlfMbS5AD9NK3ym?usp=sharing">Drive Dokumentasi</a>
-</body>
 
 
