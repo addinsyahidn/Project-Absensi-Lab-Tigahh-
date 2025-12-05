@@ -2,7 +2,7 @@ program absensilab3;
 uses crt, sysutils;
 
 type
-  data : record
+  data = record
     nama : string[30];
     nim : string[9];
     keaktifan : 0..14;
