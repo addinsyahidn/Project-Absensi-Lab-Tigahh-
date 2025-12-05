@@ -16,7 +16,7 @@ var
 
 //Fungsi
 
-//Prosedur
+//Prosedurs
 
 //Program Utama
 begin
