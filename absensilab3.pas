@@ -1,5 +1,5 @@
 program absensilab3;
-uses crt, sysutils;
+uses crt;
 
 type
   data = record
