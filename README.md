@@ -9,5 +9,5 @@ Anggota :
 </ol>
 Drive : <a href="https://drive.google.com/drive/folders/18hjL_qfoJJlhwJIAyhlfMbS5AD9NK3ym?usp=sharing">Drive Dokumentasi</a>
 Tambahan: <br>
-Untuk "file.pas" yang berada di repository hanya menampung kodingan dasar dari program kami sehingga tidak bisa menyimpan data absen. Jika ingin menggunakan secara penuh fitur dari program pascal kami, bisa diakses menggunakan folder yang kami sediakan didalam Drive.
+Untuk "file.pas" yang berada di repository hanya menampung kodingan dasar dari program kami sehingga tidak bisa  dijalankan. Jika ingin menjalankan secara benar perlu dijalankan di dalam folder bersama "file.bin" yang telah kami sediakan.
 
