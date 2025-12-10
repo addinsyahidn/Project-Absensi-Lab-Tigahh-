@@ -4,7 +4,7 @@ uses crt;
 const
   BMAHASISWA := 23;
   BPERTEMUAN := 14;
-
+  
 type
   data = record
     nama : string[30];
