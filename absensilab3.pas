@@ -16,13 +16,11 @@ type
     sakit     : 0..BPERTEMUAN;
   end;
   kumpulandata = array[1..BMAHASISWA] of data;
-  status = array[1..BMAHASISWA] of char;
-  
+   
 var
   absensi_lab : kumpulandata;
   absensi_lab_tersimpan: kumpulandata;
   absensi : file of data;
-  kehadiran : status;
   input : char;
   i, j : byte;
 
