@@ -62,7 +62,7 @@ begin
   Close(absensi);
 end;
 
-procedure Bantuan;
+procedure Info;
 begin
   clrscr;
   writeln('Key Binding:');
@@ -200,13 +200,13 @@ begin
   writeln('1. Tampilkan Absen');
   writeln('2. Isi Absen');
   writeln('3. Reset Absen');
-  writeln('4. Bantuan');
+  writeln('4. Info');
   input := readkey;
   case input of
   '1' : TampilkanAbsen;
   '2' : isiAbsen;
   '3' : resetAbsen;
-  '4' : bantuan;
+  '4' : info;
   end;
   until(input = #27);
 end.
