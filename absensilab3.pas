@@ -115,8 +115,7 @@ begin
       write('Kehadiran : '); readln(kehadiran[pertemuanke]);
       gotoxy(1, 4);
       clreol;
-      until(upcase(kehadiran[pertemuanke]) = 'H') or (upcase(kehadiran[pertemuanke]) = 'I') or
-      (upcase(kehadiran[pertemuanke]) = 'S') or (upcase(kehadiran[pertemuanke]) = 'A');
+      until(kehadiran[pertemuanke] in ['H','h','A','a','I','i','S','s']);
     end;
     absensi_lab[i] := Akumulasi(absensi_lab[i]);
   end;
