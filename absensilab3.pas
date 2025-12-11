@@ -25,6 +25,8 @@ var
   i, j : byte;
 
 function Akumulasi(mahasiswa : data): data;
+var
+  j : byte;
 begin
   Akumulasi := mahasiswa;
   with Akumulasi do
