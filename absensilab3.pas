@@ -89,7 +89,7 @@ begin
   writeln('   Mengosongkan data tersimpan.');
   writeln('   a. Kehadiran      = Hanya mengosongkan status kehadiran mahasiswa.');
   writeln('   b. Data Mahasiswa = Mengisi ulang seluruh data (termasuk Nama & NIM).');
-  writeln('4. Bantuan:');
+  writeln('4. Info:');
   writeln('   Menampilkan informasi dan penjelasan penggunaan.');
   readln;
 end;
