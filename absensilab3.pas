@@ -18,8 +18,7 @@ type
   kumpulandata = array[1..BMAHASISWA] of data;
    
 var
-  absensi_lab : kumpulandata;
-  absensi_lab_tersimpan: kumpulandata;
+  absensi_lab, absensi_lab_tersimpan : kumpulandata;
   absensi : file of data;
   input : char;
   i, j : byte;
@@ -97,6 +96,7 @@ end;
 procedure IsiAbsen;
 var pertemuanke : byte;
 begin
+  LoadDariBin;
   clrscr;
   repeat
   write('Pertemuan ke : '); readln(pertemuanke);
@@ -129,6 +129,7 @@ end;
 
 procedure ResetAbsen;
 begin
+  LoadDariBin;
   clrscr;
   writeln('1. Reset Kehadiran');
   writeln('2. Reset Data Mahasiswa');
@@ -193,7 +194,6 @@ end;
 
 begin
   assign(absensi, 'AbsensiLab3Base.bin');
-  LoadDariBin;
   repeat
   clrscr;
   writeln('1. Tampilkan Absen');
